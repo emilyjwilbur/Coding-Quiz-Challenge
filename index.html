@@ -8,22 +8,29 @@
     <title>Coding Quiz</title>
 </head>
 <body>
-    <!-- High score link in corner -->
-   <a href="Highscores.html">View Highscores</a>
-   <!-- Wrapper -->
-   <div id="wrapper">
-       <div id="current-time"></div>
-       <!-- Questions asked -->
-       <div id="questions">
-           <h1>Coding Quiz Challenge</h1>
-           <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers
-               will penalize your score/time by ten second!</p>
-            <ul id="choices-list"></ul>
+   
+    <div class="container">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within the time frame limit. Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+        <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start Quiz</button>
+        <button id="submit-btn" class="submit-btn btn hide">Submit</button>
+        <button id="go-back-btn" class="go-back-btn btn hide">Go Back</button>
+        <button id="clear-high-score-btn" class="clear-high-score-btn btn hide">Clear High Scores</button>
+    </div>
+</div>
 
-            <!-- Buttons -->
-            <button id="start-time">Start Quiz</button>
-       </div>
-   </div>
+    
+
 
 
     <script src="Assets/script.js"></script>
