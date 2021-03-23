@@ -4,30 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Assets/style.css" rel="stylesheet">
+    <!-- <link href="Assets/style.css" rel="stylesheet"> -->
     <title>Coding Quiz</title>
 </head>
 <body>
-   
-    <div class="container">
+    <header> 
+        <button class="btn">View Highscores</button>
+        <div>Time: <span id="time"></span></div>
+    </header>
+   <!-- Start quiz section -->
+    <div id="firstContainer" class="container">
         <h1>Coding Quiz Challenge</h1>
         <p>Try to answer the following code-related questions within the time frame limit. Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
-        <div id="question-container" class="hide">
-        <div id="question">Question</div>
-        <div id="answer-buttons" class="btn-grid">
-            <button class="btn">Answer 1</button>
-            <button class="btn">Answer 2</button>
-            <button class="btn">Answer 3</button>
-            <button class="btn">Answer 4</button>
+        <div  class="btn-grid">
+            <button id="startQuizBtn">Start Quiz</button>
         </div>
     </div>
-    <div class="controls">
-        <button id="start-btn" class="start-btn btn">Start Quiz</button>
-        <button id="submit-btn" class="submit-btn btn hide">Submit</button>
-        <button id="go-back-btn" class="go-back-btn btn hide">Go Back</button>
-        <button id="clear-high-score-btn" class="clear-high-score-btn btn hide">Clear High Scores</button>
+<!-- Question Containers 1-5 -->
+    <div id="secondContainer" class="container">
+        <p>Commonly used data types DO NOT include:</p>
+        <div class="btn-grid">
+            <button id="questionOneOne" class="btn">1. strings </button>
+            <button id="questionOneTwo" class="btn">2. booleans</button>
+            <button id="questionOneThree" class="btn">3. alerts</button>
+            <button id="questionOneFour" class="btn">4. numbers</button>
+        </div>
     </div>
-</div>
+
+    <div id="thirdContainer" class="container">
+        <p>The condition in an if/else statement is enclosed within __ </p>
+        <div class="btn-grid">
+            <button id="questionTwoOne" class="btn">1. quotes</button>
+            <button id="questionTwoTwo" class="btn">2. curly brackets</button>
+            <button id="questionTwoThree" class="btn">3. parenthesis</button>
+            <button id="questionTwoFour" class="btn">4. square brackets</button>
+        </div>
+    </div>
+
+    <div id="fourthContainer" class="container">
+        <p>Arrays in JavaScript can be used to store __.</p>
+        <div class="btn-grid">
+            <button id="questionThreeOne" class="btn">1. numbers and strings</button>
+            <button id="questionThreeTwo" class="btn">2. other arrays</button>
+            <button id="questionThreeThree" class="btn">3. booleans</button>
+            <button id="questionThreeFour" class="btn">4. all of the above</button>
+        </div>
+    </div>
+
+    <div id="fifthContainer" class="container">
+        <p>String values must be enclosed within ___ when being assigned to a variable.</p>
+        <div class="btn-grid">
+            <button id="questionFourOne" class="btn">1. commas</button>
+            <button id="questionFourTwo" class="btn">2. curly brackets</button>
+            <button id="questionFourThree" class="btn">3. quotes</button>
+            <button id="questionFourFour" class="btn">4. parenthesis</button>
+        </div>
+    </div>
+
+    <div id="sixthContainer" class="container">
+        <p>A very useful tool used during development and debugging from printing content to the debugger is:</p>
+        <div class="btn-grid">
+            <button id="questionFiveOne" class="btn">1. JavaScript</button>
+            <button id="questionFiveTwo" class="btn">2. terminal/bash</button>
+            <button id="questionFiveThree" class="btn">3. for loops</button>
+            <button id="questionFiveFour" class="btn">4. console log</button>
+        </div>
+    </div>
+<!-- Final score -->
+    <div id="finalScoreContainer" class="container">
+        <p>All Done!</p>
+        <br/>
+        <p>Your final score is <span id="finalScore">22</span></p>
+        <div class="btn-grid">
+            <p>Enter Initials:</p>
+            <input type="text" id="initials">
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+<!--High score -->
+    <div id="highScoreContainer" class="container">
+        <h2>Highscores</h2>
+        <ul>
+            <li>1. ab-22</li>
+        </ul>
+        <button class="btn">Go Back</button>
+        <button class="btn">Clear Highscores</button>
+    </div>
+
 
     
 
