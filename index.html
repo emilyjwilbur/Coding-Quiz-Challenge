@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css"/>
     <title>Coding Quiz Challenge</title>
 </head>
 <body>
@@ -11,47 +12,43 @@
 <!-- Header section where it will show high scores and timer -->
    <header>
        <div id="viewHighScores">View High Scores</div>
-       <div id="timerValue">0</div>
+       <div id="timerValue" class="timer">Time: 0</div>
    </header>
 
-<!-- Start quiz section -->
-   <section id="startSection">
-       <h1>Coding Quiz Challenge</h1>
-       <p>Try to answer the following code-related questions within the time frame limit. Keep in mind that incorrect answers will penalize your score by 10 seconds!</p>
-        <button id="startButton" class="button">Start Quiz</button>
-    </section>
 
-<!-- Question section with answer buttons  -->
-    <section id="questionSection">
-        <p>
-            <div id="quizQuestion">Question 1</div>
-        </p>
-        <button id="answerButton1" class="button">Answer 1</button>
-        <button id="answerButton2" class="button">Answer 2</button>
-        <button id="answerButton3" class="button">Answer 3</button>
-        <button id="answerButton4" class="button">Answer 4</button>
-    </section>
-<!-- Final Score and enter initials section -->
-    <section id="allDoneSection">
-        <p>Your final score is  </p>
-        <div id="finalScore"></div>
-        <br>
-        <div>Enter Initials</div>
-        <input type="text" id="initialsBox">
-        <button id="submitScoreButton" class="button">Submit</button>
-    </section>
-<!-- Answer results section -->
-    <section id="answerResultsSection">
-        <div id="answerResults"></div>
-    </section>
-<!-- Section listing high scores with buttons to go back or clear -->
-    <section id="highScoresSection">
-        <h1>High Scores</h1>
-        <ul id="highScoresList" class="highScores">
-        </ul>
-        <button id="goBackButton" class="button">Go Back</button>
-        <button id="clearHighScoresButton" class="button">Clear High Scores</button>
-    </section>
+   <div id="codingQuizOpener">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within the time
+            <br>limit. Keep in mind that incorrect answers will penalize your score time
+             <br>by ten seconds!</p>
+        <button id="startButton" class="startButton" onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="questionSection" class="hiddenSection">
+        <h2 id="questionLabel">This is my question</h2>
+        <button id="answerButton1" class="answerButton" onclick="selectAnswer(1);">Answer1</button>
+        <button id="answerButton2" class="answerButton" onclick="selectAnswer(2);">Answer2</button>
+        <button id="answerButton3" class="answerButton" onclick="selectAnswer(3);">Answer3</button>
+        <button id="answerButton4" class="answerButton" onclick="selectAnswer(4);">Answer4</button>
+    </div>
+
+
+    <div id="answerFeedbackSection" class="answerFeedbackSection">
+        <p>____________________________________</p>
+        <div id="answerFeedbackLabel"></div>
+    </div>
+
+
+
+    <div id="allDoneSection" class="allDoneSection">
+        <h2>All Done</h2>
+        <div id="finalScoreLabel"></div>
+    </div>
+
+
+    
+
+
 
     
     <script src="Assets/script.js"></script>

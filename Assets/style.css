@@ -15,7 +15,7 @@ p {
     display: flex;
 }
 
-body {
+/* body {
     padding: 0;
     margin: 0;
     display: flex;
@@ -24,39 +24,36 @@ body {
     justify-content: center;
     align-items: center;
 }
+ */
 
-.container {
-    width: 800px;
-    max-width: 80%;
-    padding: 10px;
-}
 
-.btn-grid {
-    display: grid;
-    gap: 7px;
-    margin: 20px 0;
-    
-}
-
-.btn {
+.startButton {
     background-color: #663399;
     color: white;
     border-radius: 3px;
-    width: fit-content;
+    margin: auto;
+    display: block;
+    
     
 }
 
-.btn:hover {
+.button:hover {
     background-color: #842bd7;
     border-color: black;
 }
 
-.controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.timer {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+
+
 }
 
-.hide {
+.hiddenSection {
+    display: none;
+}
+
+.allDoneSection {
     display: none;
 }
