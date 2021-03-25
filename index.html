@@ -15,7 +15,7 @@
        <div id="timerValue" class="timer">Time: 0</div>
    </header>
 
-
+<!-- section showing opening section to start quiz -->
    <div id="codingQuizOpener">
         <h1>Coding Quiz Challenge</h1>
         <p>Try to answer the following code-related questions within the time
@@ -23,7 +23,7 @@
              <br>by ten seconds!</p>
         <button id="startButton" class="startButton" onclick="startQuiz()">Start Quiz</button>
     </div>
-
+<!-- Question and answer buttons with onclick -->
     <div id="questionSection" class="hiddenSection">
         <h2 id="questionLabel">This is my question</h2>
         <button id="answerButton1" class="answerButton" onclick="selectAnswer(1);">Answer1</button>
@@ -32,25 +32,19 @@
         <button id="answerButton4" class="answerButton" onclick="selectAnswer(4);">Answer4</button>
     </div>
 
-
     <div id="answerFeedbackSection" class="answerFeedbackSection">
-        <p>____________________________________</p>
+        
         <div id="answerFeedbackLabel"></div>
     </div>
 
-
-
+<!-- All done section with textbox to include initials and after score is displayed -->
     <div id="allDoneSection" class="allDoneSection">
         <h2>All Done</h2>
+        <input type="text" id="initialsTextBox" value="Enter Initials">
+        <button id="submitButton" onclick="submitButton()">Submit</button>
         <div id="finalScoreLabel"></div>
     </div>
 
-
-    
-
-
-
-    
     <script src="Assets/script.js"></script>
 </body>
 </html>
