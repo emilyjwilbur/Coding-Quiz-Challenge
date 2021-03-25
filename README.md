@@ -78,7 +78,7 @@ Installation:
 
 The project was uploaded to GitHub at the following repository: https://github.com/emilyjwilbur/Coding-Quiz-Challenge
 
-You can access the deployed application with the GitHup Pages link: 
+You can access the deployed application with the GitHup Pages link: https://emilyjwilbur.github.io/Coding-Quiz-Challenge/
 
 
 
