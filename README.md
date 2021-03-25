@@ -1,4 +1,4 @@
-![index html1](https://user-images.githubusercontent.com/79462454/112408186-bb278800-8ced-11eb-9a89-839db29cc951.png)
+
 # Coding-Quiz-Challenge
 
 ## Your Task
