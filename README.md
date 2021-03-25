@@ -45,7 +45,7 @@ THEN I can save my initials and my score
     - REALLY struggled with local storage and JSON. Never got it to work hints why high score and initials don't show up on screen, but they do show up in console.
 - a very challenging hw assignment
 - watched class videos over and over 
-- Honestly surprised I got as much to work as I did. Simply couldn't figure out the rest. I find myself more confused now than I was before. Ran out of time and had to stop for the sake of my mental health! Wish I could have done more.
+- Honestly surprised I got as much to work as I did. Simply couldn't figure out the rest. I find myself more confused now than I was before. Ran out of time and had to stop for the sake of my mental health! Wish I could have done more...
 
 
 ## Index.html screenshots
