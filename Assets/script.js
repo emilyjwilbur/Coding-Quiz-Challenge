@@ -9,6 +9,7 @@ let answerFeedbackLabel = document.getElementById('answerFeedbackLabel');
 let finalScoreLabel = document.getElementById('finalScoreLabel');
 let initialsInput = document.getElementById('initialsTextBox');
 let submitButton = document.getElementById('submitButton');
+let viewHighScoreButton = document.getElementById('viewHighScores');
 
 // JAVASCRIPT VARIABLES
 let timer = 0;
@@ -95,7 +96,7 @@ submitButton.addEventListener("click", function(event) {
 
     localStorage.setItem("user", JSON.stringify(user));
 
-})
+});
 
 // tells timer to go down by 1 second (1000 milliseconds) if its greater than 0
 setInterval(function(){

@@ -15,26 +15,13 @@ p {
     display: flex;
 }
 
-/* body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
- */
-
-
 .startButton {
     background-color: #663399;
     color: white;
     border-radius: 3px;
     margin: auto;
     display: block;
-    
-    
+       
 }
 
 .button:hover {
@@ -42,11 +29,25 @@ p {
     border-color: black;
 }
 
+.answerButton {
+    background-color: #842bd7;
+    border-color: white;
+    color: white;
+    display: block;
+    padding: 10px;
+
+}
+
+.hiddenSection {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .timer {
     position: absolute;
     top: 0px;
     right: 20px;
-
 
 }
 
