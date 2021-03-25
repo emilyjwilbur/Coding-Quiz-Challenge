@@ -1,3 +1,4 @@
+![index html1](https://user-images.githubusercontent.com/79462454/112408186-bb278800-8ced-11eb-9a89-839db29cc951.png)
 # Coding-Quiz-Challenge
 
 ## Your Task
@@ -50,28 +51,26 @@ THEN I can save my initials and my score
 
 ## Index.html screenshots
 
-
-
-
-
-
-
-
-
-
-
-
+![index html1](https://user-images.githubusercontent.com/79462454/112408209-ca0e3a80-8ced-11eb-8e39-f1a0323f08cf.png)
+![index html2](https://user-images.githubusercontent.com/79462454/112408190-be227880-8ced-11eb-9ed5-ebb922819b5c.png)
 
 
 
 
 ## Script.js screenshots
 
-
+![js1](https://user-images.githubusercontent.com/79462454/112408236-d5616600-8ced-11eb-83fb-af760d4bc92a.png)
+![js2](https://user-images.githubusercontent.com/79462454/112408244-d85c5680-8ced-11eb-966f-22b10363ea6d.png)
+![js3](https://user-images.githubusercontent.com/79462454/112408263-deeace00-8ced-11eb-8fc6-d5ecc6f104fb.png)
 
 
 
 ## Style.css screenshots
+
+![css1](https://user-images.githubusercontent.com/79462454/112408288-eb6f2680-8ced-11eb-9d4c-f180394915d5.png)
+![css2](https://user-images.githubusercontent.com/79462454/112408304-ef9b4400-8ced-11eb-80f4-a90ba161006b.png)
+
+
 
 
 
