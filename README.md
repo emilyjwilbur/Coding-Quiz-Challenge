@@ -70,6 +70,16 @@ THEN I can save my initials and my score
 ![css1](https://user-images.githubusercontent.com/79462454/112408288-eb6f2680-8ced-11eb-9d4c-f180394915d5.png)
 ![css2](https://user-images.githubusercontent.com/79462454/112408304-ef9b4400-8ced-11eb-80f4-a90ba161006b.png)
 
+## Screenshot of quiz start page
+<img width="1400" alt="Screen Shot 2021-03-24 at 10 14 00 PM" src="https://user-images.githubusercontent.com/79462454/112408522-515bae00-8cee-11eb-831d-67b592c35d93.png">
+
+
+Installation:
+
+The project was uploaded to GitHub at the following repository: https://github.com/emilyjwilbur/Coding-Quiz-Challenge
+
+You can access the deployed application with the GitHup Pages link: 
+
 
 
 
